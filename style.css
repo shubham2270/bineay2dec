@@ -1,0 +1,19 @@
+* {
+    font-family: sans-serif;
+}
+
+#alert {
+    color: red;
+}
+
+.pop {
+    animation: pop 1000ms infinite;
+    /* animation-iteration-count: 5; */
+}
+
+@keyframes pop {
+    0% {transform: translateX(0px)}
+    50% {transform: translateX(-10px)}
+    75% {transform: translateX(10px)}
+    100% {transform: translateX(0px)}
+}
